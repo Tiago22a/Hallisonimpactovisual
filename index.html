@@ -1,99 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfólio | Editor de Vídeos</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="bg-gray-950 text-white font-sans">
 
-    <!-- Hero -->
-    <section class="min-h-screen flex flex-col justify-center items-center text-center px-4">
-      <h1 class="text-4xl md:text-6xl font-bold mb-4">Olá! sou o <span class="text-indigo-500">Hallison</span></h1>
-      <p class="text-gray-400 text-lg md:text-xl max-w-2xl mb-6">
-        Editor de vídeos com foco em criatividade, impacto visual e resultados para marcas e criadores.
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Editor de Vídeos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+.botao{
+  position: absolute;
+  top: 60%;
+  left: 13%;
+}
+  </style>
+</head>
+
+<body class="bg-gray-950 text-white font-sans " style="background-image: url('./2 fundo.jpg')  ">
+  
+  <!-- Hero -->
+  <section class="min-h-screen flex flex-col  relative top-60 right-30 bg py-1">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4 "> <span class="text-gray-860">Hallison Impacto visual</span></h1>
+    <p class="text-red-900 text-lg md:text-xl max-w-2xl mb-6 text-white-100">
+      Editor de vídeos com foco em criatividade, impacto visual e resultados para marcas e criadores.
+    </p>
+    
+  </section>
+  <div class="botao">
+  <a href="#contato" class="bg-indigo-600 px-6 py-3 rounded-xl hover:bg-indigo-700 transition ">
+    Entre em contato
+  </a>
+</div>
+  <!-- Sobre -->
+  <section class="py-16 px-6 bg-gray-900 text-center">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">Sobre mim</h2>
+      <p class="text-gray-400 text-lg">
+        Tenho experiência com edições de vídeos para YouTube, Reels, comerciais, eventos e vídeos institucionais.
+        Com ótima qualidade.
       </p>
-      <a href="#contato" class="bg-indigo-600 px-6 py-3 rounded-xl hover:bg-indigo-700 transition">
-        Entre em contato
+    </div>
+  </section>
+
+  <!-- Portfólio -->
+  <section class="py-16 px-6 bg-gray-950 text-center">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12">Meus Trabalhos</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Card de vídeo -->
+        <div class="bg-gray-800 p-4 rounded-xl">
+          <video class="rounded-lg mb-2" controls>
+            <source src="./blade.pronto.mp4" type="video/mp4" />
+            Seu navegador não suporta vídeo.
+          </video>
+          <p class="text-gray-300"></p>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-xl">
+          <img src="4.jpg" alt="Thumb de vídeo" class="rounded-lg mb-2" />
+          <p class="text-gray-300"></p>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-xl">
+          <video class="rounded-lg mb-2" controls>
+            <source src="./intro.mp4" type="video/mp4" />
+            Seu navegador não suporta vídeo.
+          </video>
+          <p class="text-gray-300"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section class="py-16 px-6 bg-gray-900">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-12">O que eu ofereço</h2>
+      <div class="grid md:grid-cols-3 gap-8 text-left">
+        <div>
+          <h3 class="text-xl font-semibold mb-2">Edição para YouTube</h3>
+          <p class="text-gray-400">Thumbnails, cortes dinâmicos, legendas e transições.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-2">Vídeos para redes sociais</h3>
+          <p class="text-gray-400">Reels, Shorts e TikToks prontos para viralizar.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-2">Vídeos institucionais</h3>
+          <p class="text-gray-400">Para empresas, eventos e apresentações profissionais.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-16 px-6 text-center bg-gray-950">
+    <h2 class="text-3xl font-bold mb-6">Vamos criar algo incrível?</h2>
+    <p class="text-gray-400 mb-8">Entre em contato comigo pelo WhatsApp ou envie um e-mail.</p>
+    <div class="flex flex-col md:flex-row justify-center gap-4">
+      <a href="https://wa.me/SEUNUMERO" target="_blank"
+        class="bg-green-500 px-6 py-3 rounded-xl hover:bg-green-600 transition">
+        WhatsApp
       </a>
-    </section>
+      <a href="mailto:tanjos3351@gmail.com"
+        class="border border-gray-600 px-6 py-3 rounded-xl hover:border-white transition">
+        Enviar e-mail
+      </a>
+    </div>
+  </section>
 
-    <!-- Sobre -->
-    <section class="py-16 px-6 bg-gray-900 text-center">
-      <div class="max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold mb-6">Sobre mim</h2>
-        <p class="text-gray-400 text-lg">
-          Tenho experiência com edições de vídeos para YouTube, Reels, comerciais, eventos e vídeos institucionais.
-          Com ótima qualidade.
-        </p>
-      </div>
-    </section>
+  <footer class="text-center text-gray-500 py-6 text-s bg-gray-950">
+    © 2025. Todos os direitos reservados.
+  </footer>
+</body>
 
-    <!-- Portfólio -->
-    <section class="py-16 px-6">
-      <div class="max-w-6xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-12">Meus Trabalhos</h2>
-        <div class="grid md:grid-cols-3 gap-6">
-          <!-- Card de vídeo -->
-          <div class="bg-gray-800 p-4 rounded-xl">
-            <video class="rounded-lg mb-2" controls>
-              <source src="https://www.youtube.com/watch?v=YZQSSP9ErYo" type="video/mp4" />
-              Seu navegador não suporta vídeo.
-            </video>
-            <p class="text-gray-300"></p>
-          </div>
-
-          <div class="bg-gray-800 p-4 rounded-xl">
-            <img src="thumb2.jpg" alt="Thumb de vídeo" class="rounded-lg mb-2" />
-            <p class="text-gray-300"></p>
-          </div>
-
-          <div class="bg-gray-800 p-4 rounded-xl">
-            <img src="thumb3.jpg" alt="Thumb de vídeo" class="rounded-lg mb-2" />
-            <p class="text-gray-300"></p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Serviços -->
-    <section class="py-16 px-6 bg-gray-900">
-      <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-12">O que eu ofereço</h2>
-        <div class="grid md:grid-cols-3 gap-8 text-left">
-          <div>
-            <h3 class="text-xl font-semibold mb-2">Edição para YouTube</h3>
-            <p class="text-gray-400">Thumbnails, cortes dinâmicos, legendas e transições.</p>
-          </div>
-          <div>
-            <h3 class="text-xl font-semibold mb-2">Vídeos para redes sociais</h3>
-            <p class="text-gray-400">Reels, Shorts e TikToks prontos para viralizar.</p>
-          </div>
-          <div>
-            <h3 class="text-xl font-semibold mb-2">Vídeos institucionais</h3>
-            <p class="text-gray-400">Para empresas, eventos e apresentações profissionais.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contato -->
-    <section id="contato" class="py-16 px-6 text-center">
-      <h2 class="text-3xl font-bold mb-6">Vamos criar algo incrível?</h2>
-      <p class="text-gray-400 mb-8">Entre em contato comigo pelo WhatsApp ou envie um e-mail.</p>
-      <div class="flex flex-col md:flex-row justify-center gap-4">
-        <a href="https://wa.me/SEUNUMERO" target="_blank" class="bg-green-500 px-6 py-3 rounded-xl hover:bg-green-600 transition">
-          WhatsApp
-        </a>
-        <a href="mailto:tanjos3351@gmail.com" class="border border-gray-600 px-6 py-3 rounded-xl hover:border-white transition">
-          Enviar e-mail
-        </a>
-      </div>
-    </section>
-
-    <footer class="text-center text-gray-500 py-6 text-sm">
-      © 2025. Todos os direitos reservados.
-    </footer>
-  </body>
 </html>
