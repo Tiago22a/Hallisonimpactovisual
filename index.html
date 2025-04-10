@@ -1,106 +1,164 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hallison Imapacto Audiovisual</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <meta name="description" content="Hallison é um editor de vídeo que transforma seus conteúdos em vídeos impactantes, criativos e com qualidade profissional.">
 
-  </head>
-  <body class="bg-gray-950 text-white font-sans ">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hallison Impacto Audiovisual</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          animation: {
+            fadeIn: 'fadeIn 1s ease-out both',
+            slideUp: 'slideUp 1s ease-out both'
+          },
+          keyframes: {
+            fadeIn: {
+              '0%': { opacity: 0 },
+              '100%': { opacity: 1 }
+            },
+            slideUp: {
+              '0%': { transform: 'translateY(40px)', opacity: 0 },
+              '100%': { transform: 'translateY(0)', opacity: 1 }
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <meta name="description"
+    content="Hallison é um editor de vídeo que transforma seus conteúdos em vídeos impactantes, criativos e com qualidade profissional.">
+  <meta name="keywords"
+    content="editor de vídeo, edição de vídeo, Hallison, edição profissional, vídeos para YouTube, vídeos para Instagram, reels, motion design, edição criativa">
+  <meta name="author" content="Hallison Impacto Visual">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Hallison | Edição de Vídeo Profissional">
+  <meta property="og:description"
+    content="Serviços de edição criativa e profissional para vídeos de YouTube, Instagram, Reels e muito mais.">
+  <meta property="og:image"
+    content="https://sdmntprwestus.oaiusercontent.com/files/00000000-7b14-6230-a587-40a52edfb013/raw?se=2025-04-10T19%3A27%3A39Z&sp=r&sv=2024-08-04&sr=b&scid=c45c0848-0c17-5281-bc93-693cb4c6db9b&skoid=e4438ed3-2a6f-4fd3-bf63-222012dc627c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-09T20%3A55%3A34Z&ske=2025-04-10T20%3A55%3A34Z&sks=b&skv=2024-08-04&sig=xqbgI%2Bpg3JKfKfhkey3LIrePuJ20QM8JmngZ/cDXRyw%3D">
+  <!-- imagem chamativa de 1200x630 -->
+  <meta property="og:url" content="https://a0d1-2804-9f8-4007-7f70-916d-b2e1-4d4d-bb51.ngrok-free.app/myphp1/home/">
+  <meta property="og:type" content="website">
 
-    <!-- Hero -->
-    <section class="min-h-screen flex flex-col justify-center items-center text-center px-4 h-screen bg-cover bg-center relative" style="background-image: url('./1\ fundo.jpg')">
-      <h1 class="text-4xl md:text-6xl font-bold mb-4"><span class="text-red-600">Hallison Impacto Audiovisual</span></h1>
-      <p class="text-black text-lg md:text-xl max-w-2xl mb-6 ">
-        Editor de vídeos com foco em criatividade, impacto visual e resultados para marcas e criadores.
+</head>
+
+<body class="bg-gray-950 text-white font-sans ">
+  <a href="https://wa.me/SEUNUMERO" 
+  class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition duration-300"
+  target="_blank" aria-label="Fale no WhatsApp">
+ <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+   <path d="M12.04 2.003a9.96 9.96 0 0 0-8.26 15.263L2 22l4.84-1.755a9.96 9.96 0 0 0 5.2 1.43c5.523 0 10-4.477 10-10s-4.477-9.672-10-9.672zm0 18.127a8.01 8.01 0 0 1-4.101-1.124l-.293-.175-2.863 1.038.978-2.976-.193-.307a8.012 8.012 0 1 1 6.472 3.544zm4.402-6.018c-.236-.118-1.394-.687-1.61-.765-.216-.079-.374-.118-.531.118-.157.236-.61.765-.748.923-.138.157-.275.177-.511.059-.236-.118-.996-.366-1.897-1.168-.7-.625-1.173-1.397-1.31-1.633-.138-.236-.015-.364.103-.482.105-.104.236-.275.354-.413.118-.138.157-.236.236-.393.079-.157.04-.295-.02-.413-.059-.118-.531-1.28-.727-1.753-.191-.457-.386-.396-.531-.404l-.452-.008c-.157 0-.413.059-.63.295-.216.236-.827.807-.827 1.97 0 1.162.846 2.283.963 2.438.118.157 1.66 2.528 4.021 3.544.562.242 1.002.386 1.345.494.565.18 1.079.155 1.484.094.453-.068 1.394-.57 1.59-1.12.196-.55.196-1.021.137-1.12-.059-.098-.216-.157-.452-.275z"/>
+ </svg>
+</a>
+  <!-- Hero -->
+  <section
+
+    class="min-h-screen flex flex-col justify-center items-center text-center px-4 h-screen bg-cover bg-center relative animate-fadeIn"
+    style="background-image: url('./1\ fundo.jpg')">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4 animate-slideUp"><span class="text-red-600">Hallison Impacto
+        Audiovisual</span></h1>
+    <p class="text-black text-lg md:text-2xl max-w-2xl mb-6 animate-slideUp">
+      Editor de vídeos com foco em criatividade, impacto visual e resultados para marcas e criadores.
+    </p>
+    <a href="#contato" class="bg-indigo-600 px-6 py-3 rounded-xl hover:bg-indigo-700 transition animate-slideUp">
+      Fale comigo
+    </a>
+  </section>
+
+  <!-- Sobre -->
+  <section class="py-16 px-6 bg-gray-900 text-center animate-fadeIn">
+    <div class="max-w-4xl mx-auto animate-slideUp">
+      <h2 class="text-3xl font-bold mb-6 animate-slideUp">Sobre mim</h2>
+      <p class="text-gray-400 text-lg animate-slideUp">
+        Hallison Impacto Audiovisual Transformando ideias em histórias visuais que inspiram e conectam. Com um olhar
+        único e atenção aos detalhes, criamos experiências que vão além do comum, capturando momentos, emoções e visões
+        para deixar sua marca ressoar. Descubra o poder de um impacto que toca e transforma
+
       </p>
-      <a href="#contato" class="bg-indigo-600 px-6 py-3 rounded-xl hover:bg-indigo-700 transition">
-        Entre em contato
+    </div>
+  </section>
+
+  <!-- Portfólio -->
+  <section class="py-16 px-6 bg-gray-950 text-center animate-fadeIn">
+    <div class="max-w-6xl mx-auto text-center animate-slideUp">
+      <h2 class="text-3xl font-bold mb-12 animate-slideUp">Meus Trabalhos</h2>
+      <div class="grid md:grid-cols-3 gap-6 animate-slideUp">
+        <!-- Card de vídeo -->
+        <div class="bg-gray-800 p-4 rounded-xl transition animate-slideUp" style="animation-delay: 0.2s">
+          <video class="rounded-lg mb-2 animate-slideUp" controls>
+            <source src="./blade.pronto.mp4" type="video/mp4" />
+            Seu navegador não suporta vídeo.
+          </video>
+          <p class="text-gray-300 animate-slideUp"></p>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-xl transition animate-slideUp" style="animation-delay: 0.2s">
+          <img src="4.jpg" alt="Thumb de vídeo" class="rounded-lg mb-2" />
+          <p class="text-gray-300 animate-slideUp"></p>
+        </div>
+
+        <div class="bg-gray-800 p-4 rounded-xl transition animate-slideUp" style="animation-delay: 0.2s">
+          <video class="rounded-lg mb-2 animate-slideUp" controls>
+            <source src="./intro.mp4" type="video/mp4" />
+            Seu navegador não suporta vídeo.
+          </video>
+          <p class="text-gray-300 animate-slideUp"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section class="py-16 px-6 bg-gray-900 animate-fadeIn">
+    <div class="max-w-4xl mx-auto text-center animate-slideUp">
+      <h2 class="text-3xl font-bold mb-12 animate-slideUp">O que eu ofereço</h2>
+      <div class="grid md:grid-cols-3 gap-8 text-left animate-slideUp">
+        <div>
+          <h3 class="text-xl font-semibold mb-2 animate-slideUp">Edição para YouTube</h3>
+          <p class="text-gray-400 animate-slideUp">Thumbnails, cortes dinâmicos, legendas e transições.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-2 animate-slideUp">Vídeos para redes sociais</h3>
+          <p class="text-gray-400 animate-slideUp">Reels, Shorts e TikToks prontos para viralizar.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-2 animate-slideUp">Vídeos institucionais</h3>
+          <p class="text-gray-400 animate-slideUp">Para empresas, eventos e apresentações profissionais.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Contato -->
+  <section id="contato" class="py-16 px-6 text-center bg-gray-950 animate-fadeIn">
+    <h2 class="text-3xl font-bold mb-6">Vamos criar algo incrível?</h2>
+    <p class="text-lg font-bold text-red-400 mt-4">
+      Apenas 3 vagas por semana — garanta a sua agora!
+    </p>
+
+    <p class="text-gray-400 mb-8">Entre em contato comigo pelo WhatsApp ou envie um e-mail.</p>
+    <div class="flex flex-col md:flex-row justify-center gap-4">
+      <a href="https://wa.me/SEUNUMERO" target="_blank"
+        class="bg-green-500 px-6 py-3 rounded-xl hover:bg-green-600 transition">
+        WhatsApp
       </a>
-    </section>
+      <a href="mailto:tanjos3351@gmail.com"
+        class="border border-gray-600 px-6 py-3 rounded-xl hover:border-white transition">
+        Enviar e-mail
+      </a>
+    </div>
+  </section>
 
-    <!-- Sobre -->
-    <section class="py-16 px-6 bg-gray-900 text-center">
-      <div class="max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold mb-6">Sobre mim</h2>
-        <p class="text-gray-400 text-lg">
-          Hallison Impacto Audiovisual Transformando ideias em histórias visuais que inspiram e conectam. Com um olhar único e atenção aos detalhes, criamos experiências que vão além do comum, capturando momentos, emoções e visões para deixar sua marca ressoar. Descubra o poder de um impacto que toca e transforma
+  <footer class="text-center text-gray-500 py-6 text-s bg-gray-950 animate-fadeIn">
+    © 2025. Todos os direitos reservados.
+    <br>
+    <a href="https://www.instagram.com/hallison.impacto.audiovisual/">Instagram</a>
+  </footer>
+</body>
 
-        </p>
-      </div>
-    </section>
-
-    <!-- Portfólio -->
-    <section class="py-16 px-6 bg-gray-950 text-center">
-      <div class="max-w-6xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-12">Meus Trabalhos</h2>
-        <div class="grid md:grid-cols-3 gap-6">
-          <!-- Card de vídeo -->
-          <div class="bg-gray-800 p-4 rounded-xl">
-            <video class="rounded-lg mb-2" controls>
-              <source src="./blade.pronto.mp4" type="video/mp4" />
-              Seu navegador não suporta vídeo.
-            </video>
-            <p class="text-gray-300"></p>
-          </div>
-  
-          <div class="bg-gray-800 p-4 rounded-xl">
-            <img src="4.jpg" alt="Thumb de vídeo" class="rounded-lg mb-2" />
-            <p class="text-gray-300"></p>
-          </div>
-  
-          <div class="bg-gray-800 p-4 rounded-xl">
-            <video class="rounded-lg mb-2" controls>
-              <source src="./intro.mp4" type="video/mp4" />
-              Seu navegador não suporta vídeo.
-            </video>
-            <p class="text-gray-300"></p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Serviços -->
-    <section class="py-16 px-6 bg-gray-900">
-      <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-12">O que eu ofereço</h2>
-        <div class="grid md:grid-cols-3 gap-8 text-left">
-          <div>
-            <h3 class="text-xl font-semibold mb-2">Edição para YouTube</h3>
-            <p class="text-gray-400">Thumbnails, cortes dinâmicos, legendas e transições.</p>
-          </div>
-          <div>
-            <h3 class="text-xl font-semibold mb-2">Vídeos para redes sociais</h3>
-            <p class="text-gray-400">Reels, Shorts e TikToks prontos para viralizar.</p>
-          </div>
-          <div>
-            <h3 class="text-xl font-semibold mb-2">Vídeos institucionais</h3>
-            <p class="text-gray-400">Para empresas, eventos e apresentações profissionais.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  
-  
-
-    <!-- Contato -->
-    <section id="contato" class="py-16 px-6 text-center bg-gray-950">
-      <h2 class="text-3xl font-bold mb-6">Vamos criar algo incrível?</h2>
-      <p class="text-gray-400 mb-8">Entre em contato comigo pelo WhatsApp ou envie um e-mail.</p>
-      <div class="flex flex-col md:flex-row justify-center gap-4">
-        <a href="https://wa.me/SEUNUMERO" target="_blank" class="bg-green-500 px-6 py-3 rounded-xl hover:bg-green-600 transition">
-          WhatsApp
-        </a>
-        <a href="mailto:tanjos3351@gmail.com" class="border border-gray-600 px-6 py-3 rounded-xl hover:border-white transition">
-          Enviar e-mail
-        </a>
-      </div>
-    </section>
-
-    <footer class="text-center text-gray-500 py-6 text-s bg-gray-950">
-      © 2025. Todos os direitos reservados.
-    </footer>
-  </body>
 </html>
