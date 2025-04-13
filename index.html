@@ -89,13 +89,15 @@
   <section
     class="min-h-screen flex flex-col justify-center items-center text-center px-4 h-screen bg-cover bg-center relative animate-fadeIn"
     style="background-image: url('./1\ fundo.jpg')">
+    <div class="absolute inset-0 custom-blur bg-black/40 z-0"></div>
+
     <div class="a">
       <h1 class="text-4xl md:text-6xl font-bold mb-4 animate-slideUp"><span class="text-white  font-bold">Hallison
           Impacto
           Audiovisual</span></h1>
     </div>
 
-    <div class="font-roboto font-regular text-black text-lg md:text-2xl max-w-2xl mb-6 animate-slideUp">
+    <div class="font-roboto font-regular text-white text-lg md:text-2xl max-w-2xl mb-6 animate-slideUp">
       <p class="titulo">
         Editor de vídeos com foco em criatividade, impacto visual e resultados para marcas e criadores.
       </p>
@@ -105,6 +107,11 @@
       Fale comigo
     </a>
   </section>
+  <style>
+    .custom-blur {
+      backdrop-filter: blur(1px); /* Desfoque bem suave */
+    }
+  </style>
 
   <!-- Sobre -->
   <section class="py-16 px-6 bg-gray-900 text-center animate-fadeIn">
